@@ -17,8 +17,9 @@ const Index = () => {
           <Piano />
         </div>
         
-        <div className="mt-8 text-sm text-muted-foreground">
-          Click any key to play a note
+        <div className="mt-8 text-sm text-muted-foreground space-y-2">
+          <p>Click any key to play a note</p>
+          <p>Or use your keyboard: A S D F J K L ;</p>
         </div>
       </div>
     </div>
