@@ -43,9 +43,9 @@ const PianoKey = ({ note, type, isPressed = false, octave = 4, onClick }: PianoK
           hover:shadow-lg
         `}
         style={{
-          boxShadow: glowColor 
-            ? `0 0 20px ${glowColor}, 0 0 40px ${glowColor}40` 
-            : undefined
+            boxShadow: glowColor
+                ? `0 0 10px ${glowColor}, 0 0 30px ${glowColor}, 0 0 50px ${glowColor}`
+                : undefined
         }}
         onMouseDown={handleMouseDown}
         onTouchStart={handleMouseDown}
